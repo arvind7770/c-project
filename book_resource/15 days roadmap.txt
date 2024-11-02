@@ -1,0 +1,29 @@
+Day 1: Set up environment and write "Hello, World!" program.
+
+Day 2: Learn data types, variables, and basic I/O.
+
+Day 3: Practice arithmetic, relational, and logical operators.
+
+Day 4: Understand and implement if-else and switch statements.
+
+Day 5: Write loops using for, while, and do-while.
+
+Day 6: Create and use functions for modular code.
+
+Day 7: Study arrays and use them in simple programs.
+
+Day 8: Explore pointers and basic memory management.
+
+Day 9: Understand strings and basic string manipulation.
+
+Day 10: Learn about structures (C) or classes (C++).
+
+Day 11: Practice dynamic memory allocation (malloc, free, new, delete).
+
+Day 12: Work with file handling for reading/writing data.
+
+Day 13: Implement sorting algorithms (e.g., bubble sort).
+
+Day 14: Learn about linked lists (C) or STL (C++).
+
+Day 15: Build a mini project combining the learned concepts.
