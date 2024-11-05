@@ -7,27 +7,25 @@ are three subjects and take the marks as input from the user.
 
 int main()
 {
-    float sub1, sub2, sub3;
+    int sub1, sub2, sub3;
     printf("Enter Maths Marks: ");
-    scanf("%f", &sub1);
+    scanf("%d", &sub1);
 
     printf("Enter Science Marks: ");
-    scanf("%f", &sub2);
+    scanf("%d", &sub2);
 
     printf("Enter English Marks: ");
-    scanf("%f", &sub3);
-    float total_marks = sub1 + sub2 + sub3 / 3;
-    if ((sub1 < 33 || sub2 < 33 || sub3 < 33))
+    scanf("%d", &sub3);
+    float total_marks = sub1 + sub2 + sub3;
+    float percantage = (total_marks) / 300 * 100;
+    printf("Your total percantage is: %.2f\n", percantage);
+    if ((percantage >= 40 && sub1 >= 33 && sub2 >= 33 && sub3 >= 33))
     {
-        printf("you are fail in individual subjects");
-    }
-    else if ((total_marks<40))
-    {
-        printf("you are failed because your total percentage is: %f",total_marks);
+        printf("You are passed!");
     }
     else
     {
-        printf("you are passed in all subjects");
+        printf("You are failed!");
     }
     return 0;
 }
